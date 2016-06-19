@@ -14,6 +14,6 @@ VOLUME /downloads
 
 WORKDIR /downloads
 
-EXPOSE 8042
+EXPOSE 9090
 
-CMD ["/usr/bin/python", "-m", "SimpleHTTPServer", "8042"]
+CMD ["/usr/bin/python", "-m", "SimpleHTTPServer", "9090"]
